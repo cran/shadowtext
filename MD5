@@ -1,0 +1,12 @@
+226bbd15e636aa3b62f147abbbf946e2 *DESCRIPTION
+7657e65a0cc872dc6dd53725b43ffa2c *NAMESPACE
+020502b8176417816975eb4767515af7 *R/geom-shadowtext.R
+a1bf6d471d93df1e7922333eb1f65290 *R/shadowtext-grob.R
+c983017510dae218cb777b0f576f473f *build/vignette.rds
+8d57ffeba3a7cba65ee78e3a1245c812 *inst/doc/shadowtext.R
+a8de457ea93c7e44b234dcc7f8541c82 *inst/doc/shadowtext.Rmd
+6893c65381f72a7a4cf9ce3d82f7e848 *inst/doc/shadowtext.html
+da138f86becedaceb18ca67507496b3a *man/geom_shadowtext.Rd
+6b455c000f9584de0e5f99fcfed0549d *man/reexports.Rd
+4548662289e3947414e40b7b228450e7 *man/shadowtextGrob.Rd
+a8de457ea93c7e44b234dcc7f8541c82 *vignettes/shadowtext.Rmd
