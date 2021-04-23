@@ -1,4 +1,4 @@
-## ----include=FALSE-------------------------------------------------------
+## ----include=FALSE------------------------------------------------------------
 knitr::opts_chunk$set(warning = FALSE,
                       message = TRUE)
 
@@ -6,13 +6,13 @@ library(grid)
 library(ggplot2)
 library(shadowtext)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 library(shadowtext)
 grid.shadowtext("grid is awesome", gp=gpar(cex=3, col="white"), rot=45)
 grid.shadowtext("hello world", y=0.85, gp=gpar(cex=5, col="steelblue"), bg.colour="firebrick")
 grid.shadowtext("R you ready!!!", y=.1, gp=gpar(cex=4, col="firebrick"))
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 library(ggplot2)
 
 random_text <- function(n=1, length=10) {
@@ -37,7 +37,7 @@ p + geom_shadowtext(aes(label=label, angle=angle, color=label),
                     bg.colour='firebrick', size=5) +
     theme(legend.position="none")
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 x <- c("a","b","c","d","e","f")
 y <- c("10", "9","-10","11","-3","-15")
 data <- data.frame(x, y)
