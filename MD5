@@ -1,13 +1,13 @@
-2d047e57220f4f4a287697fd1968a68d *DESCRIPTION
+bd329063900eadfd2ac65c5654be8671 *DESCRIPTION
 c452451791c5335798fe7159d4bef64a *NAMESPACE
-488f9c20bfe700364a3609ca0f67d123 *NEWS.md
+c7a62a1207633d32c88afb6c768915b7 *NEWS.md
 06b8f1a2f1133f058a93e844e96fef70 *R/element_shadowtext.R
 9a405341b72611dfb4ed743bc83671a4 *R/geom-shadowtext.R
 7a6296bc93bdf2d8e3b7b2e482293f27 *R/shadowtext-grob.R
 41793aec03b04a15942345a2ff67b7a6 *build/vignette.rds
 5f5f48506d6cdd4b5b20b6d7895f477b *inst/doc/shadowtext.R
 a8f536ceedce3c82e5fa72fab6cd75ab *inst/doc/shadowtext.Rmd
-aec439ef47caca58ed5018bfe3714ede *inst/doc/shadowtext.html
+b71d0afb2ac8c81daef64429a14103ad *inst/doc/shadowtext.html
 c82e6f75fae3633cc2306084705e9db4 *man/element_shadowtext.Rd
 826d22efe14d34a65966b34789f6db34 *man/geom_shadowtext.Rd
 46715dc689667c19a5e4bfb499d45768 *man/ggproto-shadowtext.Rd
