@@ -34,6 +34,7 @@ geom_shadowtext <- function(mapping = NULL, data = NULL,
                             na.rm = FALSE,
                             show.legend = NA,
                             inherit.aes = TRUE) {
+
     if (!missing(nudge_x) || !missing(nudge_y)) {
         if (!missing(position)) {
             stop("Specify either `position` or `nudge_x`/`nudge_y`", call. = FALSE)
@@ -112,7 +113,7 @@ GeomShadowText <- ggproto("GeomShadowText", Geom,
                                   bg.r = data$bg.r,
                                   gp = gpar(
                                       col = alpha(data$colour, data$alpha),
-                                      fontsize = data$size * ggplot2::.pt,
+                                      fontsize = data$size * .pt,
                                       fontfamily = data$family,
                                       fontface = data$fontface,
                                       lineheight = data$lineheight
@@ -134,5 +135,5 @@ GeomShadowtext <- GeomShadowText
 compute_just <- getFromNamespace("compute_just", "ggplot2")
 just_dir <- getFromNamespace("just_dir", "ggplot2")
 
-
+.pt <- 2.845276
 
